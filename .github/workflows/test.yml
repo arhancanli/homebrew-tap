@@ -9,7 +9,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: Homebrew/actions/setup-homebrew@master
+      - uses: Homebrew/actions/setup-homebrew@main
       - run: brew tap arhancanli/tap "$GITHUB_WORKSPACE"
       - run: brew install arhancanli/tap/arhanpassant
       - run: brew test arhancanli/tap/arhanpassant
