@@ -1,6 +1,6 @@
 class Arhanpassant < Formula
   desc "UCI chess engine that improves itself through self-play (NNUE)"
-  homepage "https://github.com/arhancanli/arhanpassant"
+  homepage "https://arhanpassant.com"
   version "0.9.0"
   license any_of: ["MIT", "Apache-2.0"]
 
